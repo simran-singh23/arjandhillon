@@ -8,8 +8,13 @@ function Navbar() {
       
       >Home</NavLink>
       <NavLink to="/about" className={({isActive}) => isActive ? "text-yellow-400" : ""}>
+
+
+
       About</NavLink>
+      
       <NavLink to="/contact" className={({isActive}) => isActive ? "text-yellow-400" : ""}>
+
       Contact</NavLink>
     </nav>
   );
